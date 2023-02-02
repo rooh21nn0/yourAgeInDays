@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ageInDays</title>
+    <link rel="stylesheet" href="style.css">
+
+                   <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <h1>Convert your age in days</h1>
+    <div class="container-1">
+        
+        <div class="flex-box-container-1">
+            <input type="text" placeholder="Enter your Age" id="age">
+        </div>
+        <div class="flex-box-container-1">
+
+            <div>
+                 <button type="button" class="btn btn-primary" onclick="ageInDay()">click me</button>
+            </div>
+            <div>
+                <button type="button" onclick="remove()" class="btn btn-danger">remove</button>
+
+            </div>
+
+           
+           
+        </div>
+        <div class="flex-box-container-1">
+       <div id="flex-box-result"></div>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
